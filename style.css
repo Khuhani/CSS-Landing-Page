@@ -1,0 +1,57 @@
+body{
+    font-family: 'Shizuru', cursive;
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.header{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1{
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+button{
+    color:#E5E7EB;
+    background-color:#3882F6;
+    border: 0;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.placeholder{
+    max-height:150;
+    max-width:75;
+    display: flex;
+    align-items: center;
+}
